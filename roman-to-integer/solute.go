@@ -10,6 +10,7 @@ var mm = map[byte]int{
 	'M': 1000,
 }
 
+// [题目描述](https://leetcode-cn.com/problems/roman-to-integer/)
 func romanToInt(s string) int {
 	result := 0
 	for i := len(s) - 1; i >= 0; i-- {

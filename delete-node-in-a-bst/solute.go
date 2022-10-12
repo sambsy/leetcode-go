@@ -6,6 +6,7 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
+// deleteNode 删除节点
 func deleteNode(root *TreeNode, key int) *TreeNode {
 	if root == nil {
 		return nil
