@@ -4,7 +4,7 @@ import "sort"
 
 // [三数之和](https://leetcode.cn/problems/3sum/)
 func threeSum(nums []int) [][]int {
-	sort.IntSlice(nums).Sort()
+	sort.Ints(nums)
 	result := make([][]int, 0)
 	for t := 0; t < len(nums); t++ {
 		if nums[t] > 0 {
